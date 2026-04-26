@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "spawn-3-friendly-wolves-around-the-playe-mog9oi3l",
+  "version": "${version}",
+  "name": "Spawn 3 Friendly Wolves on Crouch",
+  "description": "Spawns three tamed, friendly wolves around the player when they start crouching while holding a bone in either hand.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spawn-3-friendly-wolves-around-the-playe-mog9oi3l/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modforge.spawn3friendlywolvesaroundtheplaye.Spawn3FriendlyWolvesAroundThePlayeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
